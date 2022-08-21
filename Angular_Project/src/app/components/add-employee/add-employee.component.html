@@ -1,0 +1,118 @@
+<div>
+    <div class="submit-form">
+      <div *ngIf="!submitted">
+        <div class="form-group">
+          <label for="employeeCode">employeeCode*</label>
+          <input
+            type="text"
+            class="form-control"
+            id="employeeCode"
+            appForbiddenName="bob"
+            required="required"
+            
+            [(ngModel)]="employee.employeeCode"
+            name="employeeCode"
+          />
+        </div>
+        <div class="form-group">
+          <label for="firstName">firstName*</label>
+          <input
+            class="form-control"
+            id="firstName"
+            required
+            [(ngModel)]="employee.firstName"
+            name="firstName"
+          />
+        </div>
+
+        <div class="form-group">
+            <label for="lastName">lastName*</label>
+            <input
+              class="form-control"
+              id="lastName"
+              required
+              [(ngModel)]="employee.lastName"
+              name="lastName"
+            />
+          </div>
+          <div class="form-group">
+            <label for="phoneNo">phoneNo*</label>
+            <input
+              class="form-control"
+              id="phoneNo"
+              required
+              [(ngModel)]="employee.phoneNo"
+              name="phoneNo"
+            />
+          </div>
+          <div class="form-group">
+            <label for="hireDate">hireDate*</label>
+            <input
+              class="form-control"
+              id="hireDate"
+              type="date"
+              required
+              [(ngModel)]="employee.hireDate"
+              name="hireDate"
+            />
+          </div>
+          <div class="form-group">
+            <label for="sex">sex*</label>
+
+            <select id="sex" name="sex" class="form-control" [(ngModel)]="employee.sex">
+              <option value="Male">Male</option>
+              <option value="FeMale">FeMale</option>
+              
+            </select>
+
+           
+          </div>
+          <div class="form-group">
+            <label for="birthDate">birthDate*</label>
+            <input
+              class="form-control"
+              id="birthDate"
+              type="date"
+              required
+              [(ngModel)]="employee.birthDate"
+              name="birthDate"
+            />
+          </div>
+          <div class="form-group">
+            <label for="salary">salary*</label>
+            <input
+              class="form-control"
+              id="salary"
+              type="number"
+              required
+              [(ngModel)]="employee.salary"
+              name="salary"
+            />
+          </div>
+          <div class="form-group">
+            <label for="jobId">jobId*</label>
+            <select id="jobId" name="jobId" class="form-control" [(ngModel)]="employee.jobId">
+              <option value="1">Engineer</option>
+              <option value="2">HR</option>
+              
+            </select>
+          
+          </div>
+          <div class="form-group">
+            <label for="departmentId">departmentId*</label>
+            <select id="departmentId" name="departmentId"  class="form-control" [(ngModel)]="employee.departmentId">
+              <option value="4" selected>IT</option>
+              <option value="5">HR</option>
+              
+            </select>
+            
+          </div>
+
+        <button (click)="saveEmployee()" class="btn btn-success">Submit</button>
+      </div>
+      <div *ngIf="submitted">
+        <h4>Employee was submitted successfully!</h4>
+        <button class="btn btn-success" (click)="newEmployee()">Add Employee</button>
+      </div>
+    </div>
+  </div>
