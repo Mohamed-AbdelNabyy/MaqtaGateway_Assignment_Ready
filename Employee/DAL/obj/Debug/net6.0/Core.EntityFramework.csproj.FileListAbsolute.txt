@@ -1,0 +1,12 @@
+F:\Tebcom\BackEnd_Live\Foundation\Core.EntityFramework\bin\Debug\net6.0\Core.EntityFramework.deps.json
+F:\Tebcom\BackEnd_Live\Foundation\Core.EntityFramework\bin\Debug\net6.0\Core.EntityFramework.dll
+F:\Tebcom\BackEnd_Live\Foundation\Core.EntityFramework\bin\Debug\net6.0\Core.EntityFramework.pdb
+F:\Tebcom\BackEnd_Live\Foundation\Core.EntityFramework\obj\Debug\net6.0\Core.EntityFramework.csproj.AssemblyReference.cache
+F:\Tebcom\BackEnd_Live\Foundation\Core.EntityFramework\obj\Debug\net6.0\Core.EntityFramework.GeneratedMSBuildEditorConfig.editorconfig
+F:\Tebcom\BackEnd_Live\Foundation\Core.EntityFramework\obj\Debug\net6.0\Core.EntityFramework.AssemblyInfoInputs.cache
+F:\Tebcom\BackEnd_Live\Foundation\Core.EntityFramework\obj\Debug\net6.0\Core.EntityFramework.AssemblyInfo.cs
+F:\Tebcom\BackEnd_Live\Foundation\Core.EntityFramework\obj\Debug\net6.0\Core.EntityFramework.csproj.CoreCompileInputs.cache
+F:\Tebcom\BackEnd_Live\Foundation\Core.EntityFramework\obj\Debug\net6.0\Core.EntityFramework.dll
+F:\Tebcom\BackEnd_Live\Foundation\Core.EntityFramework\obj\Debug\net6.0\refint\Core.EntityFramework.dll
+F:\Tebcom\BackEnd_Live\Foundation\Core.EntityFramework\obj\Debug\net6.0\Core.EntityFramework.pdb
+F:\Tebcom\BackEnd_Live\Foundation\Core.EntityFramework\obj\Debug\net6.0\ref\Core.EntityFramework.dll
